@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-sqlsorcery-dev = {editable = true,extras = ["mssql"],git = "https://github.com/dchess/sqlsorcery.git",ref = "dev"}
+sqlsorcery = {extras = ["mssql"],version = "*"}
 
 [requires]
 python_version = "3.7"
